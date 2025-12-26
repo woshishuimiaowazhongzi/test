@@ -1,0 +1,43 @@
+
+    [UNITS]
+    LENGTH                   = 'meter'
+    FORCE                    = 'newton'
+    ANGLE                    = 'radians'
+    MASS                     = 'kg'
+    TIME                     = 'second'
+    [MODEL]
+    FITTYP                   = 6
+    USE_MODE                 = 4
+    LONGVL                   = 16.6
+    [DIMENSION]
+    UNLOADED_RADIUS          = 0.4699
+    WIDTH                    = 0.3175
+    ASPECT_RATIO             = 0.75
+    RIM_RADIUS               = 0.2095
+    RIM_WIDTH                = 0.2
+    [VERTICAL]
+    VERTICAL_STIFFNESS       = 411121.0
+    VERTICAL_DAMPING         = 3900.0
+    FNOMIN                   = 8562.0
+    [SCALING_COEFFICIENTS]
+    LFZO                     = 1.0
+    [LONGITUDINAL_COEFFICIENTS]
+    PCX1                     = 1.55
+    PDX1                     = 1.02
+    PKX1                     = 28.0
+    RBX1                     = 12.3
+    RCX1                     = 1.08
+    [LATERAL_COEFFICIENTS]
+    PCY1                     = 1.35
+    PDY1                     = 0.95
+    PKY1                     = 18.5
+    PKY2                     = 1.6
+    RBY1                     = 10.0
+    RCY1                     = 1.05
+    [ALIGNING_COEFFICIENTS]
+    QCZ1                     = 1.15
+    QDZ1                     = 0.11
+    QBZ1                     = 9.0
+    [ROLLING_COEFFICIENTS]
+    QSY1                     = 0.015
+    
